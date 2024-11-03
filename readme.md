@@ -4,7 +4,7 @@ A blockchain implementation in TypeScript that mimics basic functionality simila
 
 ## Concepts Explained
 
-A **block** is a container for storing data. In the context of a blockchain, a block contains a list of transactions. Each block has:
+- **block** is a container for storing data. In the context of a blockchain, a block contains a list of transactions. Each block has:
 - **Transactions**: Records of value transfers between users (e.g., sending cryptocurrency from one address to another).
 - **Hash**: A unique identifier created from the contents of the block, ensuring that the block cannot be altered without changing its hash.
 - **Previous Hash**: The hash of the previous block in the chain, which links blocks together.
