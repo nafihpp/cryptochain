@@ -1,0 +1,18 @@
+{
+  "name": "cryptochain",
+  "version": "1.0.0",
+  "description": "A blockchain implementation in TypeScript that mimics basic functionality similar to Bitcoin. This project serves as a demonstration of blockchain concepts.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
